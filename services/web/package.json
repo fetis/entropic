@@ -67,7 +67,7 @@
     "lint": "eslint .",
     "lint-fix": "prettier --write '**/*.js'",
     "posttest": "npm run lint",
-    "start": "./server.js",
+    "start": "node ./server.js",
     "test": "mocha -R spec"
   }
 }
